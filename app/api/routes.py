@@ -4,6 +4,7 @@ from models import db, User, Contact, contact_schema, contacts_schema
 
 api = Blueprint('api', __name__, url_prefix='/api')
 # adding in something
+# Adding somethin else hahahaha
 @api.route('/getdata')
 def getdata():
     return {'yee': 'haw'}
